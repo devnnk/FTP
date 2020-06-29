@@ -12,6 +12,7 @@ module.exports = {
     },
     rules: {
         "no-useless-escape": 2,
-        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
+        "no-unused-vars": 2,
+        "vue/no-unused-components": 2
     }
 }
