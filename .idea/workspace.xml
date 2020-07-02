@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16353053-8d18-4503-993b-b61b5c81ce11" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/FTP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FTP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/backend/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app/Model/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +160,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/storage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,11 +173,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/storage" />
       <recent name="$PROJECT_DIR$/frontend/src/views" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/src/components" />
       <recent name="$PROJECT_DIR$/frontend" />
-      <recent name="$PROJECT_DIR$/frontend/src/router" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -200,7 +198,9 @@
       <workItem from="1593329475881" duration="6520000" />
       <workItem from="1593353844450" duration="5635000" />
       <workItem from="1593439704290" duration="1049000" />
-      <workItem from="1593442327531" duration="117000" />
+      <workItem from="1593442327531" duration="4793000" />
+      <workItem from="1593481881995" duration="31000" />
+      <workItem from="1593663758902" duration="1109000" />
     </task>
     <servers />
   </component>
@@ -208,6 +208,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="665" y="355" width="651" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593443049966">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="665" y="355" width="651" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1593443049966" />
     <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593330029786">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -216,9 +220,9 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1593331824726" />
-    <state x="660" y="196" width="672" height="676" key="search.everywhere.popup" timestamp="1593439924036">
+    <state x="660" y="196" width="672" height="676" key="search.everywhere.popup" timestamp="1593444647180">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="660" y="196" width="672" height="676" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1593439924036" />
+    <state x="660" y="196" width="672" height="676" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1593444647180" />
   </component>
 </project>

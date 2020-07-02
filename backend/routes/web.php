@@ -34,9 +34,9 @@ Route::get('login/facebook', 'Auth\LoginController@redirectToProvider');
 Route::get('login/facebook/callback', 'Auth\LoginController@handleProviderCallback');
 
 Route::get('/auth/redirect/{provider}', 'Auth\LoginController@redirect');
-Route::get('/callback/{provider}', 'Auth\LoginController@callback');	
+Route::get('facebook/callback', 'Auth\LoginController@callback');
 Route::get('/details','Auth\LoginController@details');
 Route::get('/test',function(){
-        $user = Auth::user(); 
-        return response()->json(['success' => $user]); 
+        $user = Auth::user();
+        return response()->json(['success' => $user]);
 });
