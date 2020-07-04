@@ -13,7 +13,7 @@ class User extends Authenticatable
 
     protected $connection = 'mongodb';
 
-    protected $table = 'users';
+    protected $collection = 'users';
 
     public function __construct(array $attributes = [])
     {
